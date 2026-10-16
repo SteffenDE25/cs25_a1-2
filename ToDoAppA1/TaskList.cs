@@ -8,5 +8,12 @@ namespace ToDoAppA1
 {
     public class TaskList
     {
+        public string Name { get; set; } = "Neue Aufgabenliste";
+        public List<Task> Aufgaben { get; set; } = new List<Task>();
+
+        // Überschreiben der ToString-Methode mit einer geeigneter Ausgabe
+        // hier: Listenname (Anzahl Aufgaben), z.B. Haushalt (3)
+        public override string ToString() =>
+            $"{Name} ({(Aufgaben.Count).ToString()})";
     }
 }
