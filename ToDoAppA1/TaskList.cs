@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ToDoAppA1
 {
-    public class Aufgabe
+    public class TaskList
     {
     }
 }
