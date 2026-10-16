@@ -63,7 +63,7 @@
             // 
             beendenToolStripMenuItem.Name = "beendenToolStripMenuItem";
             beendenToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.X;
-            beendenToolStripMenuItem.Size = new Size(270, 34);
+            beendenToolStripMenuItem.Size = new Size(249, 34);
             beendenToolStripMenuItem.Text = "&Beenden";
             beendenToolStripMenuItem.Click += beendenToolStripMenuItem_Click;
             // 
@@ -75,6 +75,7 @@
             lstBoxTaskLists.Name = "lstBoxTaskLists";
             lstBoxTaskLists.Size = new Size(396, 479);
             lstBoxTaskLists.TabIndex = 1;
+            lstBoxTaskLists.DoubleClick += lstBoxTaskLists_DoubleClick;
             // 
             // chkLstBoxTasks
             // 
@@ -94,6 +95,7 @@
             btnAddList.TabIndex = 3;
             btnAddList.Text = "Hinzufügen";
             btnAddList.UseVisualStyleBackColor = true;
+            btnAddList.Click += btnAddList_Click;
             // 
             // btnRemoveList
             // 
